@@ -9,8 +9,8 @@ It also demonstrates using an ORACLE and/or PROBABILITY THEORY
 in testing and BOUNDARY (EDGE) TESTING.
 
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         their colleagues and Robert Belk.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 import random
 import builtins  # Never necessary, but here to make a point about SUM
@@ -191,6 +191,10 @@ def run_test_sum_sequence():
 
 
 def sum_sequence(sequence):
+    sum = 0
+    sum = sum + len(sequence)-1
+    return sum
+
     """
     What comes in:  A sequence of integers.
     What goes out: Returns the sum of the numbers in the given sequence.
